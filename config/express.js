@@ -84,13 +84,13 @@ module.exports = function (app, passport, router) {
    * Error Handler.
    */
 
+  if (process.env.NODE_ENV === "development") {
+    // only use in development
+    app.use(errorHandler());
+  }
+
   app.use((err, req, res, next) => {
-    if (process.env.NODE_ENV === "development") {
-      // only use in development
-      return errorHandler(err, req, res, next);
-    } else {
-      console.error(err);
-      res.status(500).send("Server Error");
-    }
+    console.error(err);
+    res.status(500).send("Server Error");
   });
 };
