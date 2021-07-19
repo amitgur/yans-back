@@ -1,6 +1,5 @@
 # mongodb backup
 mongodb-backup
-.env
 *.ts
 *.log
 *.csv
