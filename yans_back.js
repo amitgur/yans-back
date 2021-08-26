@@ -9,7 +9,7 @@ const passport = require("passport");
 dotenv.config({ path: ".env" });
 
 // connect to mongo
-require("./config/mongoose")();
+require("./config/mongoHandler")();
 
 // register mongoose models
 require("./models");
