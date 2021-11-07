@@ -1,4 +1,7 @@
 # mongodb backup
+
+.env
+
 mongodb-backup
 *.ts
 *.log
