@@ -8,7 +8,7 @@ Yans is a REST api architecture splitted into two projects.
 YANS is inspired by MVC model, except the View is handled by the front app. So you can call it MRC,
 meaning Model-Route-Controller.
 
-###Directory tree
+### Directory tree
 
 ```
 project
