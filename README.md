@@ -4,7 +4,7 @@ Yans is a REST api architecture splitted into two projects.
 "yans-front" is the client project using axios for REST calls and Quasar for front UI.
 "yans-back" is the server project using node and mongodb as server and database and passportJS for basic username+password authentication.
 
-###Software design pattern
+### Software design pattern
 YANS is inspired by MVC model, except the View is handled by the front app. So you can call it MRC,
 meaning Model-Route-Controller.
 
